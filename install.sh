@@ -1,5 +1,33 @@
 #!/bin/bash
 
+: '
+Installation list :
+    chrome
+    opera
+    thunderbird
+    slack
+    teams
+    discord
+    vscode
+    docker
+    obsidian
+    spotify
+    dbeaver
+    mysql workbench
+    onlyoffice
+    vlc player
+    libreoffice
+    gimp
+    nemo
+    gparted
+    syncthing
+    fcitx
+    gpaste
+    gdebi installer
+    gnome extensions
+    gnome tweaks
+'
+
 # Install sudo and Update and Upgrade System 
 apt-get update && apt-get install -y sudo && sudo apt-get upgrade -y
 
